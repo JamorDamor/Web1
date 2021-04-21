@@ -1,0 +1,41 @@
+p, a, h1, h2, ol {
+  font-family: nanumgothic;
+  text-align: center;
+  color: gray;
+}
+p {
+  font-family: Nanum Pen script;
+  color:gray;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  border-bottom:1px solid gray;
+  padding: 20px;
+  margin: 0;
+}
+#grid{
+  display: grid;
+  grid-template-columns: 240px 1fr;
+}
+#grid ol {
+  border-right:1px solid gray;
+  width: 200px;
+  padding-top: 30px;
+  padding-left: 40px;
+
+  margin: 0;
+}
+#article{
+  아무것도 사용하지 않음
+}
+@media(max-width:820px){
+  #grid{
+    display: block;
+  }
+  #grid ol {
+    border-right: none;
+  }
+}
